@@ -1,0 +1,60 @@
+.default_div {
+    position: absolute;
+    border: solid 2px black;
+    background-color: beige;
+}
+
+.my_style_one {
+    background-color: rgb(80, 169, 233) !important;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    /* bottom: 5px; we don't want it to extend down */
+    height: 50px;
+    background-color: gainsboro;
+    text-align: center;
+    font-size:xx-large;
+    align-items: center;
+    justify-content: center;
+}
+/* 2 position categories to think about
+height / width: gives an absolute size
+OR,
+top, bottom, left, right: give a distance from the
+    edge of the screen
+    
+KEY POINT:
+If you use height, only use either top or bottom
+    not both
+If you use width, only use left or right, not both*/
+
+.left_menu {
+    top: 90.6px;
+    left: 5px;
+    width: 100px;
+    height: 670px;
+    background-color: paleturquoise;
+    position:absolute;
+}
+
+.main_content {
+    position:absolute;
+    top:90.6px;
+    left: 113.2px;
+    right: 5px;
+    height: 670px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.emphasis {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.fontchange  {
+    color:green;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
